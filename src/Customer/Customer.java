@@ -1,6 +1,8 @@
 package Customer;
 
-public class Customer {
+import javafx.collections.ObservableArray;
+
+public class Customer{
 
    private String name;
    private String age;

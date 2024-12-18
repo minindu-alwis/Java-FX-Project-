@@ -50,12 +50,12 @@
          <Font size="8.0" />
       </font>
    </Label>
-   <TableView layoutX="45.0" layoutY="203.0" prefHeight="183.0" prefWidth="503.0">
+   <TableView fx:id="tblcustomer" layoutX="45.0" layoutY="203.0" prefHeight="183.0" prefWidth="503.0">
      <columns>
-       <TableColumn prefWidth="121.60004425048828" text="Name" />
-       <TableColumn prefWidth="122.4000244140625" text="Age" />
-         <TableColumn prefWidth="120.79998779296875" text="Address" />
-         <TableColumn prefWidth="138.39999389648438" text="Salary" />
+       <TableColumn fx:id="colname" prefWidth="121.60004425048828" text="Name" />
+       <TableColumn fx:id="colage" prefWidth="122.4000244140625" text="Age" />
+         <TableColumn fx:id="coladdress" prefWidth="120.79998779296875" text="Address" />
+         <TableColumn fx:id="colsalary" prefWidth="138.39999389648438" text="Salary" />
      </columns>
    </TableView>
 </AnchorPane>
